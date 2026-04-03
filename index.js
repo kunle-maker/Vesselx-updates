@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const VESSELX_VERSION = '2.0.0';
+const VESSELX_VERSION = '3.0.0';
 
 app.use(cors());
 app.use(express.json());
